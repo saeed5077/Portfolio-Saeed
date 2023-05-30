@@ -122,7 +122,7 @@ function Projects() {
                 </Nav.Link>
               </Nav.Item>
             </Nav>
-            <Tab.Content>
+            <Tab.Content> 
                 <Tab.Pane eventKey="first">
                     <Row>
                         {
