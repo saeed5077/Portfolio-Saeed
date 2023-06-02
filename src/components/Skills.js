@@ -37,7 +37,7 @@ function Skills() {
     return (
 
   
-    <section className='skill' id='skills'>
+    <section className='skill-slider' id='skills'>
         <Container>
             <Row>
                 <Col>

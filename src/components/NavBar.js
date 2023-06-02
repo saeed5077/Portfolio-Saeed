@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState,useEffect } from 'react';
 import {Container,Navbar,Nav} from 'react-bootstrap';
-
+// https://drive.google.com/file/d/1oAZHhP25gs9Poh10KTwhLchDf2nOaU_k/view?usp=share_link
 import logo from "../assets/img/saeed-high-resolution-logo-color-on-transparent-background.png"
 import navIcon1 from "../assets/img/nav-icon1.svg"
 
@@ -54,7 +54,7 @@ function NavBar() {
                     <a href="https://www.instagram.com/i.saeed24/"><img src={navIcon3} alt="" /></a>
 
                 </div>
-               <a href="https://drive.google.com/file/d/1oAZHhP25gs9Poh10KTwhLchDf2nOaU_k/view?usp=share_link" download="Saeed Resume">
+               <a href="https://drive.google.com/u/1/uc?id=1oAZHhP25gs9Poh10KTwhLchDf2nOaU_k&export=download" download>
                <button className="vvd"><span>Download CV</span></button>
                </a>
               </span>
