@@ -82,6 +82,24 @@ p.danger {
 	color: red;
 }
 /************ Navbar Css ************/
+
+   
+@media only screen and (max-width: 575px) {
+  .img-md{
+    width:250%;
+  }
+  .social-icon{
+    display: flex;
+   justify-content: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .img-md{
+    width:200%;
+  }
+  
+}
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;

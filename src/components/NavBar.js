@@ -37,7 +37,7 @@ function NavBar() {
           <Container>
 
             <Navbar.Brand  href="#home" >
-              <img  src={logo} alt="logo" />                
+              <img className='img-md' src={logo} alt="logo" />                
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -80,7 +80,7 @@ function Contact() {
                             </Col>
                             <Col sm={6} className="px-1">
                                <textarea row="6" name="message" value={formDetails.message} placeholder="Message" onChange={(e)=>onFormUpdate('message',e.target.value)}></textarea>
-                               <button type="submit"><span>{buttonText}</span></button>
+                               <button type="submit" className='Submit-sm'><span>{buttonText}</span></button>
                                <ToastContainer />
                                {
                                 status.message &&

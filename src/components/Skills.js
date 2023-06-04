@@ -46,7 +46,6 @@ function Skills() {
                             Skills
                         </h2>
                         <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae architecto repellendus facere, vel aut ducimus ab similique ex a dolore.
 
                         </p>
                         <Carousel responsive={responsive}>

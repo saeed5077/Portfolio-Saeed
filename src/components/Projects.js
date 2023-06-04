@@ -103,10 +103,9 @@ function Projects() {
           <Col>
             <h2>Projects</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Incidunt, repellendus soluta. Voluptates ullam deserunt blanditiis
-              atque accusamus veniam, nobis quos fuga provident. Suscipit
-              obcaecati illum doloremque libero eaque officiis delectus?
+            These are my project, certificates, and achievement.
+            Projects are learning outcomes of React, Tailwind, 
+            and Node js.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
                  <Nav variant="pills" defaultActiveKey="/home" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">

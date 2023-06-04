@@ -71,7 +71,7 @@ function Banner() {
                     {text}
                 </span>
                 </h1>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, omnis, vitae ex, a earum provident inventore ea necessitatibus eos rerum optio quasi impedit! Vel impedit rem laudantium, perspiciatis explicabo beatae fugiat! Asperiores, aliquam? Ratione illum iusto ea sunt! Veniam eum, aperiam velit odit quaerat facilis deleniti cupiditate sed magni eius.</p> 
+               <p> As a highly motivated and detail-oriented student pursuing a Bachelor's degree in Computer Science, I have developed strong communication, organizational, & problem-solving skills through my coursework and extracurricular activities. I am excited to apply these skills in a professional setting and gain hands-on experience in the Tech. With a passion for creativity and a strong work ethic, I am committed to making a positive impact on the organization I work for.</p> 
                <button onClick={()=>console.log('connect')}>
                 Lets Connect <ArrowRightCircle size={30}/>
 
