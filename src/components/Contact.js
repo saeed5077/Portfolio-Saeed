@@ -4,6 +4,8 @@ import ContactImg from "../assets/img/contact-img.svg";
 
 import emailjs from "@emailjs/browser"
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
 
@@ -35,6 +37,7 @@ function Contact() {
  
     e.preventDefault();
     setButtonText('Sending...');
+    const notify = () => toast("Email Sent!");
     emailjs.sendForm('service_bjzo1uf', 'template_r3hfxpa', form.current, 'z3LxN-XQpPQLvmzjh')
       .then((result) => {
           console.log(result.text);
@@ -47,28 +50,6 @@ function Contact() {
        
       );
  
-
-        // e.preventDefault();
-        // setButtonText('Sending...');
-        // let response = await fetch("https://localhost:5000/contact",{
-        //     method:"POST",
-        //     headers:{
-        //         "Content-Type":"Application/json;charset=utf-8",
-        //     },
-        //     body:JSON.stringify(formDetails),
-
-        // });
-        // setButtonText("Send");
-        // let result = response.json();
-        // setFormDetails(formInitialDetails)
-
-        // if(result.code === 200)
-        // {
-        //     setStatus({success:true,message:"Message sent successfully"});
-        // }else{
-        //     setStatus({success:false,message:"Something went Wrong"});
-        // }
-
 
 
     }
@@ -100,6 +81,7 @@ function Contact() {
                             <Col sm={6} className="px-1">
                                <textarea row="6" name="message" value={formDetails.message} placeholder="Message" onChange={(e)=>onFormUpdate('message',e.target.value)}></textarea>
                                <button type="submit"><span>{buttonText}</span></button>
+                               <ToastContainer />
                                {
                                 status.message &&
                                 <Col>

@@ -52,23 +52,23 @@ function Skills() {
                         <Carousel responsive={responsive}>
                             <div className="item">
                                 <img src={metric1} alt="" />
-                                <h5>Web Development</h5>
+                                <h5>Front End Web-Development</h5>
                             </div>
                             
                             <div className="item">
                                 <img src={metric2} alt="" />
-                                <h5>Node Project</h5>
+                                <h5>Problem Solving</h5>
                             </div>
                             
                             <div className="item">
                                 <img src={metric3} alt="" />
-                                <h5>Web Development</h5>
+                                <h5>React</h5>
                             </div>
                             
-                            <div className="item">
+                            {/* <div className="item">
                                 <img src={metric1} alt="" />
                                 <h5>Web Development</h5>
-                            </div>
+                            </div> */}
                         </Carousel>
                         <img src={colorSharp} alt="" className="background-image-left" />
                     </div>

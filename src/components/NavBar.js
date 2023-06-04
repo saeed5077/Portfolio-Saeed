@@ -54,7 +54,7 @@ function NavBar() {
                     <a href="https://www.instagram.com/i.saeed24/"><img src={navIcon3} alt="" /></a>
 
                 </div>
-               <a href="https://drive.google.com/u/1/uc?id=1oAZHhP25gs9Poh10KTwhLchDf2nOaU_k&export=download" download>
+               <a href="https://drive.google.com/u/0/uc?id=176sBNUQpBxR1MHxVrEf1nSWk6l1EnHeq&export=download" download>
                <button className="vvd"><span>Download CV</span></button>
                </a>
               </span>
