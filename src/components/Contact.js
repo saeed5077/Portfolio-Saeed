@@ -33,8 +33,6 @@ function Contact() {
 
     const handleSubmit= async (e)=>{
        
-
- 
     e.preventDefault();
     setButtonText('Sending...');
     const notify = () => toast("Email Sent!");
